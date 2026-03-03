@@ -90,7 +90,7 @@ elif command -v pacman &> /dev/null; then
     INSTALL_CMD="sudo pacman -S --noconfirm"
     GIT_INSTALL_CMD="sudo pacman -S git --noconfirm"
     Distro="Arch-Hyprland"
-    Github_URL="https://github.com/LinuxBeginnings/$Distro.git"
+    Github_URL="https://github.com/skarpinis/$Distro.git"
     Distro_DIR="$HOME/$Distro"
 elif command -v dnf &> /dev/null; then
     PACKAGE_MANAGER="dnf"
